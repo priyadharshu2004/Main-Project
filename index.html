@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form action="registration-success.html">
+          <div class="input-group">
+            <label><strong>First Name:</strong></label>
+            <input type="text" placeholder="Enter Your First Name" id="fname">
+          </div>
+    
+          <div class="input-group">
+            <label><strong>Last Name:</strong></label>
+            <input type="text" placeholder="Enter Your Last Name" id="lname">
+          </div>
+    
+          <div class="input-group">
+            <label><strong>Date of Birth:</strong></label>
+            <input type="date" id="dob">
+          </div> 
+
+          <div class="input-group">
+            <label><strong>Email Id:</strong></label>
+            <input type="email" placeholder="Enter Your Email Id" id="email-id">
+          </div>
+
+          <div class="input-group">
+            <label><strong>Mobile No.:</strong></label>
+            <input type="tel" placeholder="Enter your mobile number" id="phone-no">
+          </div>
+
+          <div class="input-group">
+            <label><strong>Gender:</strong></label>
+            <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="male" id="male">
+            <label for="male">Male</label> 
+            <input type="radio" style="flex-basis: 0%; margin: 0 10px;"name="gender" value="female" id="female">
+            <label for="female">Female</label> 
+          </div> 
+
+          <div class="input-group">
+            <label><strong>Country:</strong></label>
+            <p class="custom-select">
+                                            <i class="ri-arrow-down-s-line"></i>
+                                            <select name="country">
+                                                <option value="" disabled selected>Select your country</option>
+                                                <option value="Afghanistan">Afghanistan</option>
+                                                <option value="Australia">Australia</option>
+                                                <option value="China">China</option>
+                                                <option value="France">France</option>
+                                                <option value="India">India</option>
+                                                <option value="Japan">Japan</option>
+                                                <option value="Malaysia">Malaysia</option>
+                                                <option value="Pakistan">Pakistan</option>
+                                                <option value="USA">USA</option>
+                                                <option value="Germany">Germany</option>
+                                                <option> value="Others">Others</option>
+                                            </select>
+                                        </p> 
+            
+          </div> 
+
+          <div class="input-group">
+            <label><strong>State:</strong></label>
+            <select name="state" id="state-name">
+                                                           <p>
+                                                <input type="text" name="state" placeholder="State / province">
+                                                <select name="State">
+                                                    <option value="" disabled selected>Select your state</option>
+                                                    <option value="Assam">Assam</option>
+                                                    <option value="Andhra pradesh">Andhra pradesh</option>
+                                                    <option value="Bangalore">Bangalore</option>
+                                                    <option value="Bihar">Bihar</option>
+                                                    <option value="Cochin">Cochin</option>
+                                                    <option value="Delhi">Delhi</option>
+                                                    <option value="Goa">Goa</option>
+                                                    <option value="Gujarat">Gujarat</option>
+                                                    <option value="Hariyana">Haraiyana</option>
+                                                    <option valuue="Jharakand">Jharkand</option>
+                                                    <option valuue="Kerala">Kerala</option>
+                                                    <option valuue="Manipur">Manipur</option>
+                                                    <option value="Nagaland">Nagaland</option>
+                                                    <option valuue="Odisha">Odisha</option>
+                                                    <option valuue="Punjab">Punjab</option>
+                                                    <option valuue="Rajasthan">Rajasthan</option>
+                                                    <option valuue="Sikim">Sikim</option>
+                                                    <option valuue="Tamil Nadu">Tamil Nadu</option>
+                                                    <option valuue="Telangana">Telanagana</option>
+                                                    <option valuue="Uttar Pradesh">Uttar Pradesh</option>
+                                                    <option valuue="Uttarkhand">Uttarkhand</option>
+                                                    <option valuue="West Bengal">West Bengal</option>
+                                            </p> 
+                                            <p>
+
+              <option value="" selected="selected">select state</option>
+
+            </select>
+          </div> 
+
+          <div class="input-group">
+            <label><strong>Address:</strong></label>
+            <input type="text" placeholder="Enter Your Address" id="address">
+          </div>
+
+          <div class="input-group">
+            <label><strong>Pin Code:</strong></label>
+            <input type="text" placeholder="Enter Your Pin Code" id="pincode">
+          </div> 
+
+          <div class="input-group">
+            <label><strong>City:</strong></label>
+            <input type="text" placeholder="Enter Your City" id="city">
+          </div>
+
+          <div class="input-group">
+            <label><strong>District:</strong></label>
+            <p>
+              <input type="text" name="city" placeholder="City">
+              <select name="city">
+                  <option value="" disabled selected>Select your city</option>
+                  <option value="Ariyalur">Ariyalur</option> 
+                  <option value="Chennai">Chennai</option>
+                  <option value="Cuddalore">Cuddalore</option>
+                  <option value="Coimbatore">Coimbatore</option> 
+                  <option value="Erode">Erode</option> 
+                  <option value="Krishnagiri">Krishnagiri</option> 
+                  <option value="Karur">Karur</option>
+                  <option value="Karaikkal">Karaikkal</option>
+                  <option value="Mayiladuthurai">Mayiladuthurai</option> 
+                  <option value="Madurai">Madurai</option> 
+                  <option value="Nagapattinam">Nagapattinam</option>
+                  <option value="Ooty">Ooty</option> 
+                  <option value="Perambalur">Perambalur</option> 
+                  <option value="Pudukkottai">Pudukkottai</option> 
+                  <option value="Ramanathapuram">Ramanathapuram</option> 
+                  <option value="Salem">Salem</option> 
+                  <option value="Thanjavur">Thanjavur</option> 
+                  <option value="Trichy">Trichy</option> 
+                  <option value="Thiruppur">Thiruppur</option>
+                  <option value="Viruthunagar">Viruthunagar</option> 
+                  <option value="Vellore">Vellore</option> 
+                  <option value="Viluppuram">Viluppuram</option>
+
+
+
+          </p>
+            <select name="district" id="district-name" >
+              <option value="" selected="selected">Please select district first</option>
+            </select>
+          </div> 
+    
+          <div class="input-group">
+            <label><strong>Hobbies:</strong></label>
+            <textarea rows="5" placeholder="Enter Your Hobbies" id="hobbies" ></textarea>
+          </div>
+    
+        <button >Submit</button>
+       
+      </form>
+
+      </div>
+      
+      <script src="script.js"></script>
+     <script> var fnameError = document.getElementById('fname-error');
+var lnameError = document.getElementById('lname-error');
+var dobError = document.getElementById('dob-error');
+var emailError = document.getElementById('email-error');
+var genderError = document.getElementById('gender-error');
+var mobileError = document.getElementById('mobile-error');
+var countryError = document.getElementById('country-error');
+var stateError = document.getElementById('state-error');
+var addressError = document.getElementById('address-error');
+var pinCodeError = document.getElementById('pin-error');
+var cityError = document.getElementById('city-error');
+var districtError = document.getElementById('district-error');
+var hobbiesError = document.getElementById('hobbies-error');
+var submitError = document.getElementById('submit-error');
+</script>
+</body>
+</html>
